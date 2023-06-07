@@ -3,8 +3,6 @@ name: Publish docs to Wiki
 on:
   workflow_dispatch:
   push:
-    paths:
-      - "docs/**"
     branches:
       - master
 
