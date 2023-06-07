@@ -5,19 +5,18 @@ on:
   push:
     paths:
       - "docs/**"
+      - .github/workflows/wiki.yml
     branches:
       - master
-      - main
+
+permissions:
+  contents: write
 
 jobs:
-  publish:
-    name: Publish docs to Wiki
+  publish-wiki:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Upload Documentation to Wiki
-        uses: SwiftDocOrg/github-wiki-publish-action@v1
+      - uses: actions/checkout@v3
+      - uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:
-          path: "docs"
-        env:
-          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+          path: docs
