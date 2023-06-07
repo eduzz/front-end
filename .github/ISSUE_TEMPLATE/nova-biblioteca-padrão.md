@@ -1,7 +1,7 @@
 ---
 name: Nova biblioteca padrão
 about: Template padrão para implementação de nova biblioteca
-title: ''
+title: "[Nova biblioteca]:"
 labels: ''
 assignees: danieloprado, ffernandomoraes
 
