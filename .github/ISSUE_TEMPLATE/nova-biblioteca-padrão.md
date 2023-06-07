@@ -18,9 +18,11 @@ assignees: danieloprado, ffernandomoraes
 - A biblioteca possuí suporte ao Typescript?
   -
 
+## Exemplos de código
+
+...
+
 ## Referências
 
 - [Demonstração](URL_AQUI)
 - [Github da biblioteca](URL_AQUI)
-
-## Exemplos de código
