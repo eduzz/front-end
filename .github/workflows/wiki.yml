@@ -1,6 +1,7 @@
 name: Publish docs to Wiki
 
 on:
+  workflow_call:
   push:
     paths:
       - docs/**
