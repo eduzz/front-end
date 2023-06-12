@@ -4,7 +4,7 @@
 - [Processo de implementação de nova biblioteca](https://github.com/eduzz/front-end/wiki/Processo-de-inclus%C3%A3o-de-biblioteca) ✅
   - Template de issue padrão ✅
 - Requisitos de entregas
-- Bibliotecas padrões
+- Bibliotecas padrões ✅
 - Exemplos de códigos
 - Arquitetura padrão
   - Boilerplates (vite, biblioteca simples, microfrontend)
