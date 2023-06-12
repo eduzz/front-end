@@ -8,8 +8,8 @@ Os requisitos de entrega podem variar dependendo do projeto e das necessidades d
 
 1. Performance: Para garantir um desempenho eficiente, é essencial otimizar o código utilizando de forma adequada e estratégica os recursos disponíveis no React, como `memo()`, `useCallback()` e `useMemo()`.
 
-1. Manutenibilidade: O código do front-end deve ser estruturado e organizado de forma a facilitar a manutenção e a evolução do projeto no futuro.
+1. Manutenibilidade: O código deve ser estruturado e organizado de forma a facilitar a manutenção e a evolução do projeto no futuro.
 
-1. Testes: É essencial realizar testes no front-end para garantir a qualidade e a estabilidade do código. Isso pode envolver testes automatizados, como testes de unidade e integração, além de testes manuais para verificar o comportamento do front-end em diferentes cenários e dispositivos.
+1. Testes: É essencial realizar testes para garantir a qualidade e a estabilidade do código. Isso pode envolver testes automatizados (pelo QA), como testes de unidade e integração, além de testes manuais para verificar o comportamento do front-end em diferentes cenários e dispositivos.
 
 Lembrando que esses são apenas alguns exemplos de requisitos comuns e que podem variar dependendo do projeto e das necessidades específicas. É importante sempre alinhar as expectativas com o time ou equipe responsável pelo projeto para garantir uma entrega satisfatória.
