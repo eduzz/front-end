@@ -68,6 +68,12 @@ Deverá ser a base para projetos novos.
 Apenas em caso de microfrontend (ex. [MyEduzz Vertical](https://github.com/eduzz/myeduzz-vertical/wiki)).
 Seguir os passos do projeto já existente.
 
+## UI Componentes / Styles
+
+* [AntD](https://ant.design/): Base de componentes prontos, foco mais para sistemas internos (MyEduzz, Nutro Producer e etc...).
+* [Emotion](https://emotion.sh/docs/introduction): Biblioteca para estilização, possui a mesma sintax do `styled-component` mas com performance melhor.
+
+
 ## Gerenciador de Estado
 
 Utilize eles para gerenciar o estado geral da aplicação e **NÃO** o estado de um componente/requisição 
@@ -80,6 +86,8 @@ Exemplos de uso:
 
 ### Zustand (Recomendado)
 [Site](https://github.com/pmndrs/zustand)
+
+> Recomendado por ser mais simples e fácil de usar.
 
 <details>
   <summary>Exemplo</summary>
@@ -150,6 +158,60 @@ export default useAuthStore;
 
 /// Componente
 const user = useAuthStore(state => state.currentUser());
+```
+</details>
+
+### Redux Toolkit
+
+[Site](https://redux-toolkit.js.org/)
+
+<details>
+  <summary>Exemplo</summary>
+
+```tsx
+import { createSlice, configureStore, PayloadAction } from '@reduxjs/toolkit';
+
+declare module 'react-redux' {
+  export interface DefaultRootState extends RootState {}
+}
+
+export const authTokenSlice = createSlice({
+  name: 'authToken',
+  initialState: { value: localStorage.getItem('auth-token') ?? null },
+  reducers: {
+    set: (state, { payload: newToken }: PayloadAction<string>) => {
+      localStorage.setItem('auth-token', newToken);
+      state.value = newToken;
+    },
+    clear: state => {
+      localStorage.removeItem('auth-token');
+      state.value = null;
+    }
+  }
+});
+
+export const store = configureStore({
+  reducer: {
+    authToken: authTokenSlice.reducer
+  }
+});
+
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
+
+export const selectorIsAuthenticated = createSelector(
+  (state: RootState) => state.authToken.value,
+  token => !!token
+);
+
+// App.tsx
+const App = memo(() => {
+  return (
+    <Provider store={store}>
+      { /* -- your app */}
+    </Provider>
+  )
+});
 ```
 </details>
 
