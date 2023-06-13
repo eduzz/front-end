@@ -1,9 +1,20 @@
-## Base do projeto
+# Geral
 
-### Vite
+## Base
+
+* [Vite](https://vitejs.dev/): Deverá ser a base para projetos novos.
+* Webpack: Apenas em caso de microfrontend (ex. [MyEduzz Vertical](https://github.com/eduzz/myeduzz-vertical/wiki)).
+  Seguir os passos do projeto já existente.
+
+## UI Componentes / Styles
+
+* [AntD](https://ant.design/): Base de componentes prontos, foco mais para sistemas internos (MyEduzz, Nutro Producer e etc...).
+* [Emotion](https://emotion.sh/docs/introduction): Biblioteca para estilização, possui a mesma sintax do `styled-component` mas com performance melhor.
+
+# Configurações
+
+## Vite
 [Site](https://vitejs.dev/)
-
-Deverá ser a base para projetos novos.
 
 > Tome cuidado com quando utilizar o `sourcemap: true` pois existe um [bug](https://github.com/vitejs/vite/issues/2433) 
 > não resolvido no vite, siga a config abaixo para resolver.
@@ -63,18 +74,7 @@ Deverá ser a base para projetos novos.
   ```
 </details>
 
-### Webpack
-
-Apenas em caso de microfrontend (ex. [MyEduzz Vertical](https://github.com/eduzz/myeduzz-vertical/wiki)).
-Seguir os passos do projeto já existente.
-
-## UI Componentes / Styles
-
-* [AntD](https://ant.design/): Base de componentes prontos, foco mais para sistemas internos (MyEduzz, Nutro Producer e etc...).
-* [Emotion](https://emotion.sh/docs/introduction): Biblioteca para estilização, possui a mesma sintax do `styled-component` mas com performance melhor.
-
-
-## Gerenciador de Estado
+# Gerenciador de Estado
 
 Utilize eles para gerenciar o estado geral da aplicação e **NÃO** o estado de um componente/requisição 
 (salvo em casos específicos que **TALVEZ** ele se faça necessário e o ContextAPI não seja aplicável)
@@ -84,7 +84,7 @@ Exemplos de uso:
 * Configuração de tema
 
 
-### Zustand (Recomendado)
+## Zustand (Recomendado)
 [Site](https://github.com/pmndrs/zustand)
 
 > Recomendado por ser mais simples e fácil de usar.
@@ -161,7 +161,7 @@ const user = useAuthStore(state => state.currentUser());
 ```
 </details>
 
-### Redux Toolkit
+## Redux Toolkit (legado)
 
 [Site](https://redux-toolkit.js.org/)
 
