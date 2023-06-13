@@ -9,6 +9,10 @@ on:
     branches:
       - master
 
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
