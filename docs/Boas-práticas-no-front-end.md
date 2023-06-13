@@ -1,6 +1,6 @@
 Existem várias boas práticas que você pode seguir para garantir um código limpo, organizado e eficiente. Aqui estão algumas das principais boas práticas.
 
-## Estrutura e organização do código
+# Estrutura e organização do código
    - Utilize uma estrutura de diretórios clara e organizada para seus arquivos.
    - Separe o código em arquivos diferentes (tome cuidado com o excesso) para facilitar a manutenção e reutilização.
    - Utilize convenções de nomenclatura consistentes para classes, IDs, variáveis e arquivos.
