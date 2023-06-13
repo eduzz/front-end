@@ -21,6 +21,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Node
+        uses: actions/setup-node@v3
+      - name: Sidebar Installer
+        run: npm install -g github-wiki-sidebar
+      - name: Sidebar Installer
+        run: (cd docs && github-wiki-sidebar --silent)
       - uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:
           path: docs
