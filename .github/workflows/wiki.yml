@@ -23,6 +23,8 @@ jobs:
       - uses: actions/checkout@v3
       - name: Node
         uses: actions/setup-node@v3
+      - name: Copy Readme
+        run: cp ./README.md ./docs/Home.md
       - name: Sidebar Installer
         run: npm install -g github-wiki-sidebar
       - name: Sidebar Installer
