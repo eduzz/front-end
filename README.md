@@ -10,4 +10,4 @@ Este repositório tem como objetivo reunir uma coleção abrangente de padrões 
 - Arquitetura padrão
   - Boilerplates (Vite e microfrontend)
 
-Participe das nossas (discussões)[https://github.com/eduzz/front-end/discussions].
+Participe das nossas [discussões](https://github.com/eduzz/front-end/discussions).
