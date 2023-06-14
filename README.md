@@ -1,13 +1,13 @@
-# Frontend
+# Front-end
 
-- [Boas práticas de desenvolvimento](https://github.com/eduzz/front-end/wiki/Boas-pr%C3%A1ticas-no-front-end) ✅
-- [Processo de implementação de nova biblioteca](https://github.com/eduzz/front-end/wiki/Processo-de-inclus%C3%A3o-de-biblioteca) ✅
-  - Template de issue padrão ✅
+Este repositório tem como objetivo reunir uma coleção abrangente de padrões de front-end e documentações para auxiliar no desenvolvimento de projetos web/mobile.
+
+- Boas práticas de desenvolvimento
 - Requisitos de entregas
-- Bibliotecas padrões ✅
-- Exemplos de códigos
+- Bibliotecas padrões
+  - Processo de implementação de nova biblioteca
+  - Template de issue padrão
 - Arquitetura padrão
-  - Boilerplates (vite, biblioteca simples, microfrontend)
-- Snippets componentes
+  - Boilerplates (Vite e microfrontend)
 
-
+Participe das nossas [discussões](https://github.com/eduzz/front-end/discussions).
