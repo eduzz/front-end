@@ -2,7 +2,7 @@
 
 Este repositório tem como objetivo reunir uma coleção abrangente de padrões de front-end e documentações para auxiliar no desenvolvimento de projetos web/mobile.
 
-- Boas práticas de desenvolvimento
+- Boas práticas no desenvolvimento
 - Requisitos de entregas
 - Bibliotecas padrões
   - Processo de implementação de nova biblioteca

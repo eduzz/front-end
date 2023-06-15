@@ -1,6 +1,4 @@
 
-### Estrutura de pastas padrão
-
 Lembre-se de que a estrutura de pastas pode variar dependendo do contexto da aplicação. Em alguns casos, pode haver a inclusão de pastas adicionais (`store/`, `redux/`, `contexts`, ...) devido ao uso de bibliotecas de gerenciamento de estados ou por conta das styles engines (`styled/`). No entanto, recomendamos que você siga essa linha de raciocínio.
 
 A organização proposta fornece uma estrutura fácil e escalável. No entanto, é importante adaptar a estrutura de pastas de acordo com as necessidades específicas do seu projeto e no entendimento do time.

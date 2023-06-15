@@ -59,7 +59,7 @@
   ```
 </details>
 
-# Gerenciador de Estado
+## Gerenciador de Estado
 
 Utilize eles para gerenciar o estado geral da aplicação e **NÃO** o estado de um componente/requisição 
 (salvo em casos específicos que **TALVEZ** ele se faça necessário e o ContextAPI não seja aplicável)
@@ -69,7 +69,7 @@ Exemplos de uso:
 * Configuração de tema
 
 
-## Zustand (Recomendado)
+### Zustand (Recomendado)
 [Site](https://github.com/pmndrs/zustand)
 
 > Recomendado por ser mais simples e fácil de usar.
@@ -146,7 +146,7 @@ const user = useAuthStore(state => state.currentUser());
 ```
 </details>
 
-## Redux Toolkit (legado)
+### Redux Toolkit (legado)
 
 [Site](https://redux-toolkit.js.org/)
 
