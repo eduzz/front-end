@@ -8,8 +8,7 @@ A organização proposta fornece uma estrutura fácil e escalável. No entanto, 
 Sinta-se a vontade para sugerir mudanças na aba de [discussões](https://github.com/eduzz/front-end/discussions).
 
 <p align="center">
-
-<img width="383" alt="Arquitetura padrão" src="https://github.com/eduzz/front-end/assets/22228470/0daa026d-e8f5-44be-ba7d-634a62cf3d69">
+<img width="332" alt="image" src="https://github.com/eduzz/front-end/assets/22228470/ed0f2278-3ab0-42fc-86df-03a147e0de6e">
 </p>
 
 ### Uso correto das pastas
