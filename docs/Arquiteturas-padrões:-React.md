@@ -1,7 +1,7 @@
 
-### Estrutura de pastas padrão.
+### Estrutura de pastas padrão
 
-Lembre-se de que a estrutura de pastas pode variar dependendo do contexto da aplicação. Em alguns casos, pode haver a inclusão de pastas adicionais (`store/`, `redux/`, `contexts`, ...) devido ao uso de bibliotecas de gerenciamento de estados. No entanto, recomendamos que você siga essa linha de raciocínio.
+Lembre-se de que a estrutura de pastas pode variar dependendo do contexto da aplicação. Em alguns casos, pode haver a inclusão de pastas adicionais (`store/`, `redux/`, `contexts`, ...) devido ao uso de bibliotecas de gerenciamento de estados ou por conta das styles engines (`styled/`). No entanto, recomendamos que você siga essa linha de raciocínio.
 
 A organização proposta fornece uma estrutura fácil e escalável. No entanto, é importante adaptar a estrutura de pastas de acordo com as necessidades específicas do seu projeto e no entendimento do time.
 
@@ -9,7 +9,7 @@ Sinta-se a vontade para sugerir mudanças na aba de [discussões](https://github
 
 <p align="center">
 
-![Arquitetura de pastas padrão](https://github.com/eduzz/front-end/assets/22228470/ec3e143e-a71a-4fd3-b823-6ddbf4e94c1c)
+<img width="383" alt="Arquitetura padrão" src="https://github.com/eduzz/front-end/assets/22228470/0daa026d-e8f5-44be-ba7d-634a62cf3d69">
 </p>
 
 ### Uso correto das pastas
