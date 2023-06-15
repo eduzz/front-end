@@ -17,17 +17,16 @@ Sinta-se a vontade para sugerir mudanças na aba de [discussões](https://github
 - `.vscode/`: Contém as configurações e extensões recomendadas para o projeto.
 - `docker/`: Inclui os arquivos necessários para o uso do Docker (Dockerfile, nginx, ...).
 - `public/`: Destinado aos arquivos públicos, como favicon e manifest.
-- `assets/`: Armazena imagens, fontes, temas da aplicação e outros recursos relacionados.
-	- `theme/`: Contém as configurações específicas do tema, como emotion e antd.
-- `components/`
-	- `globals/`: Agrupa os componentes de nível global, como Layout e Providers.
-	- `shared/`: Engloba os componentes reutilizáveis, como Cards, Loaders e Empty States.
--  `declarations/`: Inclui declarações e alterações de tipagem.
-- `helpers/`: Contém funções auxiliares, constantes, enums e outros utilitários.
-- `hooks/`: Armazena os hooks genéricos compartilhados.
-- `interfaces/`: Contém as interfaces compartilhadas.
-- `pages/`: Responsável pelas páginas da aplicação.
-	- `private/`: Compreende as páginas que exigem autenticação do usuário no sistema.
-	- `public/`: Engloba as páginas públicas, como página não encontrada, sem acesso e autenticação.
-- `services/`: Camada de comunicação com a API.
+- `src/`: Pasta de entrada para os arquivos.
+	- `assets/`: Armazena imagens, fontes, temas da aplicação e outros recursos relacionados.
+		- `theme/`: Contém as configurações específicas do tema, como emotion e antd.
+	- `components/`
+		- `globals/`: Agrupa os componentes de nível global, como Layout e Providers.
+		- `shared/`: Engloba os componentes reutilizáveis, como Cards, Loaders e Empty States.
+	-  `declarations/`: Inclui declarações e alterações de tipagem.
+	- `helpers/`: Contém funções auxiliares, constantes, enums e outros utilitários.
+	- `hooks/`: Armazena os hooks genéricos compartilhados.
+	- `interfaces/`: Contém as interfaces compartilhadas.
+	- `pages/`: Responsável pelas páginas da aplicação.
+	- `services/`: Camada de comunicação com a API.
 
