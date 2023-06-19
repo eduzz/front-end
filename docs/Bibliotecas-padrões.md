@@ -1,43 +1,34 @@
-# Geral
-
 ## Base
+* [Vite](https://vitejs.dev): Utilizado como base para o desenvolvimento.
+* Webpack: Utilizado apenas em casos de microfrontend, como o [MyEduzz Vertical](https://github.com/eduzz/myeduzz-vertical/wiki).
+* [Next.js](https://nextjs.org): Utilizado em casos específicos onde o SSR é necessário.
 
-* [Vite](https://vitejs.dev/): Deverá ser a base para projetos novos.
-* Webpack: Apenas em caso de microfrontend (ex. [MyEduzz Vertical](https://github.com/eduzz/myeduzz-vertical/wiki)).
-  Seguir os passos do projeto já existente.
-* [NextJs](https://nextjs.org/): Apenas em casos específicos aonde o `SSR` se faz necessário.
+## ESLint / Prettier
+* [Houston Eslint](https://eduzz.github.io/houston/eslint-config/README): Aplica as configurações padrões do ESLint e Prettier.
 
-## ESLint
+## UI Componentes
+* [AntD](https://ant.design/): Biblioteca de componentes prontos, mais adequada para sistemas internos, como MyEduzz, Nutro Producer, etc.
+* [Mui/MaterialUI](https://mui.com/) (legado): Não deve ser utilizado em projetos novos.
 
-* [Houston Eslint](https://eduzz.github.io/houston/eslint-config/README): Aplica as configurações padrões da Eduzz.
-
-## UI Componentes / Styles
-
-* [AntD](https://ant.design/): Base de componentes prontos, foco mais para sistemas internos (MyEduzz, Nutro Producer e etc...).
-* [Emotion](https://emotion.sh/docs/introduction): Biblioteca para estilização, possui a mesma sintax do `styled-component` mas com performance melhor.
-* [Mui/MaterialUI](https://mui.com/)(`legado`): Não utilizar mais em projetos novos. 
+## Estilização
+* [Emotion](https://emotion.sh/docs/introduction): Biblioteca de estilização com sintaxe semelhante ao `styled-components`, porém com melhor performance.
 
 ## Gerenciador de Estados
+* [Zustand](https://github.com/pmndrs/zustand): Gerenciador de estados simples e fácil de usar.
+* [Redux toolkit](https://redux-toolkit.js.org) (legado): Não deve ser utilizado em projetos novos.
 
-* [zustand](https://github.com/pmndrs/zustand): Gerenciador de estados simples e fácil de usar.
-* [redux-toolkit](https://redux-toolkit.js.org/)(`legado`): Não utilizar mais em projetos novos. 
-
-## Gerenciador de Requisição / Promises
-
-* [axios](https://axios-http.com/ptbr/): Base de requisições http, usar em conjunto do `TanStack Query`.
-* [TanStack Query](https://tanstack.com/query/v4/): Gerenciador de estados de requisição http.
+## Gerenciador de Requisições / Promises
+* [Axios](https://axios-http.com/ptbr/): Biblioteca para requisições HTTP, utilizado em conjunto com `TanStack Query`.
+* [TanStack Query](https://tanstack.com/query/v4/): Gerenciador de estados de requisições HTTP.
 * [Houston Hooks/Promises](https://eduzz.github.io/houston/hooks/usePromise): Hooks simples para utilizar o estado de uma promise.
 
-## Validação de formuários
-
-* [yup](https://github.com/jquense/yup): Schema de validação com tipagem.
-* [react-hook-form](https://www.react-hook-form.com/): Deve ser utilizado em conjunto do yup ([resolver](https://www.npmjs.com/package/@hookform/resolvers#Yup)).
+## Validação de Formulários
+* [yup](https://github.com/jquense/yup): Biblioteca de validação com suporte a tipagem.
+* [react-hook-form](https://www.react-hook-form.com): Deve ser utilizado em conjunto com yup ([resolver](https://www.npmjs.com/package/@hookform/resolvers#Yup)).
 
 ## Log de Erros
-
-* [Sentry](https://docs.sentry.io/platforms/javascript/guides/react/): Serviço de logs padrão.
+* [Sentry](https://docs.sentry.io/platforms/javascript/guides/react): Serviço de registro de logs de erros.
 
 ## Outros
-
-* [date-fns](https://date-fns.org/): Manipulador de datas.
-* [react-router](https://reactrouter.com/en/main): Router para o react.
+* [date-fns](https://date-fns.org/): Biblioteca para manipulação de datas.
+* [react-router](https://reactrouter.com/en/main): Router para o React.
