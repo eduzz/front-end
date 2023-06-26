@@ -3,6 +3,9 @@
 * Webpack: Utilizado apenas em casos de microfrontend, como o [MyEduzz Vertical](https://github.com/eduzz/myeduzz-vertical/wiki).
 * [Next.js](https://nextjs.org): Utilizado em casos específicos onde o SSR é necessário.
 
+## Ícones
+* [Bootstrap](https://icons.getbootstrap.com).
+
 ## ESLint / Prettier
 * [Houston Eslint](https://eduzz.github.io/houston/eslint-config/README): Aplica as configurações padrões do ESLint e Prettier.
 
