@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import Layout from '@/components/globals/Layout';
 import PrivateRoute from '@/components/globals/PrivateRoute';
 
-import HomePage from './Home';
+import HelloWorld from './HelloWorld';
 
 const AppRoutes = () => {
   return (
@@ -20,7 +20,7 @@ const AppRoutes = () => {
           </PrivateRoute>
         }
       >
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<HelloWorld />} />
       </Route>
 
       {/* redirect */}

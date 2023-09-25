@@ -1,15 +1,17 @@
+import '@/global.css';
+
 import { BrowserRouter } from 'react-router-dom';
 
-import ThemeProvider from '@/components/globals/ThemeProvider';
+import Providers from '@/components/globals/Providers';
 import AppRoutes from '@/pages/routes';
 
 const App = () => {
   return (
-    <ThemeProvider>
+    <Providers>
       <BrowserRouter>
         <AppRoutes />
       </BrowserRouter>
-    </ThemeProvider>
+    </Providers>
   );
 };
 
